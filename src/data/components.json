@@ -549,7 +549,8 @@
       "switchesBoolean",
       "switchesArray",
       "switchesStates",
-      "switchesColors"
+      "switchesColors",
+      "labelSlot"
     ],
     "spec": false
   },
@@ -579,7 +580,8 @@
       "customColors",
       "validation",
       { "file": "range", "newIn": "1.1" },
-      "minMax"
+      "minMax",
+      "metronome"
     ],
     "spec": false
   },
@@ -668,6 +670,7 @@
       "clearable",
       "iconEvents",
       "iconSlots",
+      "labelSlot",
       "characterCounter",
       "password",
       "validation",
@@ -712,6 +715,9 @@
   "toolbars": {
     "components": [
       "v-toolbar",
+      "v-toolbar-items",
+      "v-toolbar-side-icon",
+      "v-toolbar-title",
       "v-system-bar"
     ],
     "examples": [
